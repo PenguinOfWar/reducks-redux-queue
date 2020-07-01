@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Reducks (Redux Queue)
+## reducks-redux-queue
+
+This project's github pages were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

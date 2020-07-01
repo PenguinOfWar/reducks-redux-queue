@@ -2,13 +2,16 @@
   "name": "reducks-redux-queue",
   "version": "0.1.0",
   "private": true,
+  "main": "src/lib/index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
+    "eventemitter3": "^4.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-observable": "^1.2.0",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.5.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +20,15 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "no-var": "error",
+      "react/display-name": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -30,5 +41,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "history": "^5.0.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
+    "react-code-blocks": "0.0.7",
+    "react-redux": "^7.2.0",
+    "react-redux-toastr": "^7.6.5",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "rsup-progress": "^1.4.0",
+    "sass-lint": "^1.13.1"
   }
 }
