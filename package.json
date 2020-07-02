@@ -1,6 +1,6 @@
 {
   "name": "reducks-redux-queue",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "src/lib/index.js",
   "homepage": "https://penguinofwar.github.io/reducks-redux-queue",
