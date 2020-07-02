@@ -18,7 +18,22 @@ const App = (props = {}) => {
               <div className="jumbotron bg-secondary text-white text-center">
                 <div className="row">
                   <div className="col-lg-6 offset-lg-3">
-                    <img src={logo} className="img-fluid logo" alt="Reducks" />
+                    <figure className="figure">
+                      <img
+                        src={logo}
+                        className="img-fluid logo"
+                        alt="Reducks"
+                      />
+                      <figcaption className="figure-caption text-white sr-only">
+                        Logo credit:{' '}
+                        <a
+                          href="https://github.com/damianryann"
+                          className="text-light"
+                        >
+                          Damian Ryan
+                        </a>
+                      </figcaption>
+                    </figure>
                   </div>
                 </div>
                 <h1 className="display-5">
@@ -31,6 +46,15 @@ const App = (props = {}) => {
                 <p className="lead">
                   Reducks is also fully compatible with react-redux. Please see
                   the source code of this page for examples.
+                </p>
+                <p className="lead">
+                  Logo credit:{' '}
+                  <a
+                    href="https://github.com/damianryann"
+                    className="badge badge-dark"
+                  >
+                    Damian Ryan
+                  </a>
                 </p>
                 <hr className="my-4" />
                 <p>
