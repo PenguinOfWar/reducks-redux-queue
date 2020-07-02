@@ -1,7 +1,12 @@
 {
   "name": "reducks-redux-queue",
   "version": "1.0.0",
-  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PenguinOfWar/reducks-redux-queue"
+  },
+  "author": "Darryl Walker <darryljwalker@gmail.com>",
+  "license": "MIT",
   "main": "src/lib/index.js",
   "homepage": "https://penguinofwar.github.io/reducks-redux-queue",
   "dependencies": {

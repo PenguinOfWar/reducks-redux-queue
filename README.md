@@ -1,8 +1,6 @@
 # Reducks (Redux Queue)
 
-## reducks-redux-queue
-
-> A `redux-observable` driven FIFO (first in - first out) queuing system for `redux` and `redux-thunk`. Fully compatible with `react-redux`.
+A `redux-observable` driven FIFO (first in - first out) queuing system for `redux` and `redux-thunk`. Fully compatible with `react-redux`.
 
 This project's github pages and local demo were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
