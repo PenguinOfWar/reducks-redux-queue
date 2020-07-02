@@ -5,6 +5,7 @@ import { mapStateToProps, mapDispatchToProps } from '../../dispatch/bootstrap';
 
 import { Simple, Advanced } from '../../components/Examples/Examples';
 
+import logo from '../../assets/images/logo.png';
 import './App.scss';
 
 const App = (props = {}) => {
@@ -14,8 +15,15 @@ const App = (props = {}) => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="jumbotron bg-secondary text-white">
-                <h1 className="display-4">Reducks (Redux Queue)</h1>
+              <div className="jumbotron bg-secondary text-white text-center">
+                <div className="row">
+                  <div className="col-lg-6 offset-lg-3">
+                    <img src={logo} className="img-fluid" alt="Reducks" />
+                  </div>
+                </div>
+                <h1 className="display-4">
+                  <span className="sr-only">Reducks </span>(Redux Queue)
+                </h1>
                 <p className="lead">
                   A redux-observable driven FIFO (first in - first out) queueing
                   system for redux and redux-thunk.
