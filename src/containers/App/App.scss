@@ -1,17 +1,11 @@
-@media (prefers-reduced-motion: no-preference) {
-  .app {
-    .app-logo {
-      animation: app-logo-spin infinite 20s linear;
-    }
-  }
-}
+$tyrian: #66023c;
 
-@keyframes app-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
+.app {
+  .logo {
+    border-radius: 50%;
+    color: $tyrian;
+    display: block;
+    margin: auto auto 35px;
+    max-width: 300px;
   }
 }

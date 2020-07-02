@@ -18,10 +18,10 @@ const App = (props = {}) => {
               <div className="jumbotron bg-secondary text-white text-center">
                 <div className="row">
                   <div className="col-lg-6 offset-lg-3">
-                    <img src={logo} className="img-fluid" alt="Reducks" />
+                    <img src={logo} className="img-fluid logo" alt="Reducks" />
                   </div>
                 </div>
-                <h1 className="display-4">
+                <h1 className="display-5">
                   <span className="sr-only">Reducks </span>(Redux Queue)
                 </h1>
                 <p className="lead">
