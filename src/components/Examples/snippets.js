@@ -18,7 +18,7 @@ const Simple = (props = {}) => {
                   resolve();
                 }, 5000)
               );
-            })
+            })}
           type="button">
             Enqueue
           </button>
