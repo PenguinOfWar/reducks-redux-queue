@@ -49,12 +49,46 @@ exports[`mounts without crashing 1`] = `
                 className="col-12"
               >
                 <div
-                  className="jumbotron bg-secondary text-white"
+                  className="jumbotron bg-secondary text-white text-center"
                 >
-                  <h1
-                    className="display-4"
+                  <div
+                    className="row"
                   >
-                    Reducks (Redux Queue)
+                    <div
+                      className="col-lg-6 offset-lg-3"
+                    >
+                      <figure
+                        className="figure"
+                      >
+                        <img
+                          alt="Reducks"
+                          className="img-fluid logo"
+                          src="logo.png"
+                        />
+                        <figcaption
+                          className="figure-caption text-white sr-only"
+                        >
+                          Logo credit:
+                           
+                          <a
+                            className="text-light"
+                            href="https://github.com/damianryann"
+                          >
+                            Damian Ryan
+                          </a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <h1
+                    className="display-5"
+                  >
+                    <span
+                      className="sr-only"
+                    >
+                      Reducks 
+                    </span>
+                    (Redux Queue)
                   </h1>
                   <p
                     className="lead"
@@ -65,6 +99,18 @@ exports[`mounts without crashing 1`] = `
                     className="lead"
                   >
                     Reducks is also fully compatible with react-redux. Please see the source code of this page for examples.
+                  </p>
+                  <p
+                    className="lead"
+                  >
+                    Logo credit:
+                     
+                    <a
+                      className="badge badge-dark"
+                      href="https://github.com/damianryann"
+                    >
+                      Damian Ryan
+                    </a>
                   </p>
                   <hr
                     className="my-4"
