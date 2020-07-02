@@ -6,7 +6,7 @@
 
 This project's github pages and local demo were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![npm](https://flat.badgen.net/npm/v/reducks-redux-queue)](https://www.npmjs.com/package/reducks-redux-queue)[![npm](https://flat.badgen.net/npm/license/rsup-progress)](https://github.com/penguinofwar/reducks-redux-queue/blob/master/LICENSE)
+[![npm](https://flat.badgen.net/npm/v/reducks-redux-queue)](https://www.npmjs.com/package/reducks-redux-queue) [![npm](https://flat.badgen.net/npm/license/rsup-progress)](https://github.com/penguinofwar/reducks-redux-queue/blob/master/LICENSE) ![GitHub Pages](https://github.com/PenguinOfWar/reducks-redux-queue/workflows/GitHub%20Pages/badge.svg)
 
 ## Demos & Examples
 
