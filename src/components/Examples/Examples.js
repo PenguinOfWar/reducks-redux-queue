@@ -62,7 +62,7 @@ const Simple = (props = {}) => {
               <p className="card-text">
                 While you can use Reducks as a synchronous queue dispatcher,
                 {` it's`} true purpose is to provide a strict First In, First
-                Out (FIFO) so the execution order is consistentl and
+                Out (FIFO) so the execution order is consistent and
                 predictable.
               </p>
               <p className="card-text">
