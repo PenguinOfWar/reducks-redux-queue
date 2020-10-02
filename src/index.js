@@ -41,7 +41,7 @@ const AppLoader = (
               position="bottom-right"
               getState={() => {
                 return store.getState().toastr;
-              }} // This is the default
+              }}
               transitionIn="fadeIn"
               transitionOut="fadeOut"
               progressBar
