@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "352c4c8877333acfda827540c74eebd8",
+    "revision": "dda972759a936fcadd1f39b1beb282bd",
     "url": "/reducks-redux-queue/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reducks-redux-queue/static/css/153.1a134fb9.chunk.css"
   },
   {
-    "revision": "c9b7e7b0d3c53433379e",
+    "revision": "14af79ad376030773f79",
     "url": "/reducks-redux-queue/static/css/main.cbc66a9c.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reducks-redux-queue/static/js/154.f8b84921.chunk.js"
   },
   {
-    "revision": "c9b7e7b0d3c53433379e",
-    "url": "/reducks-redux-queue/static/js/main.9d2977df.chunk.js"
+    "revision": "14af79ad376030773f79",
+    "url": "/reducks-redux-queue/static/js/main.4b1c56af.chunk.js"
   },
   {
     "revision": "8187f4aa06618857aa58",
