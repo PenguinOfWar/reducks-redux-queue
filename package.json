@@ -54,7 +54,6 @@
     "history": "^5.0.0",
     "jest-enzyme": "^7.1.2",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
@@ -70,6 +69,7 @@
     "redux-observable": "^1.2.0",
     "redux-thunk": "^2.3.0",
     "rsup-progress": "^1.4.0",
+    "sass": "^1.69.5",
     "sass-lint": "^1.13.1"
   }
 }
