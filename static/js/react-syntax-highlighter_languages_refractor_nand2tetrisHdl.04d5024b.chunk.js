@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreducks_redux_queue=self.webpackChunkreducks_redux_queue||[]).push([[224],{8347:function(e){function u(e){e.languages["nand2tetris-hdl"]={comment:/\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/,keyword:/\b(?:BUILTIN|CHIP|CLOCKED|IN|OUT|PARTS)\b/,boolean:/\b(?:false|true)\b/,function:/\b[A-Za-z][A-Za-z0-9]*(?=\()/,number:/\b\d+\b/,operator:/=|\.\./,punctuation:/[{}[\];(),:]/}}e.exports=u,u.displayName="nand2tetrisHdl",u.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_nand2tetrisHdl.04d5024b.chunk.js.map
